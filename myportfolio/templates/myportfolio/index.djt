@@ -1,0 +1,52 @@
+{% extends 'myportfolio/layout.djt' %}
+{% load static %}
+{% block main %}
+    <i class="bi bi-list mobile-nav-toggle d-xl-none"></i>
+    {% include "myportfolio/navbar.djt" %}
+    <!-- ======= Hero Section ======= -->
+    <section id="hero" class="d-flex flex-column justify-content-center align-items-center">
+        <div class="hero-container" data-aos="fade-in">
+            <h1>Shah Sawood</h1>
+            <p>I'm <span class="typed" data-typed-items="C Programmer, C++ Programmer, Django Developer, Python Developer, JavaScrip Programmer, Multi-Langual Typist"></span></p>
+        </div>
+    </section>
+    <!-- End Hero -->
+    <main id="main">
+        <!-- ======= About Section ======= -->
+        {% include "myportfolio/about.djt" %}
+        <!-- End About Section -->
+        <!-- ======= Facts Section ======= -->
+        {% include "myportfolio/facts.djt" %}
+        <!-- End Facts Section -->
+        <!-- ======= Skills Section ======= -->
+        {% include "myportfolio/skills.djt" %}
+        <!-- End Skills Section -->
+        <!-- ======= Resume Section ======= -->
+        {% include "myportfolio/resume.djt" %}
+        <!-- End Resume Section -->
+        <!-- ======= Portfolio Section ======= -->
+        {% include "myportfolio/portfolio.djt" %}
+        <!-- End Portfolio Section -->
+        <!-- ======= Services Section ======= -->
+        {% include "myportfolio/services.djt" %}
+        <!-- End Services Section -->
+        <!-- ======= Testimonials Section ======= -->
+        {% include "myportfolio/testimonials.djt" %}
+        <!-- End Testimonials Section -->
+        <!-- ======= Contact Section ======= -->
+        {% include "myportfolio/contact.djt" %}
+        <!-- End Contact Section -->
+    </main><!-- End #main -->
+    <!-- ======= Footer ======= -->
+    <footer id="footer">
+        <div class="container">
+            <div class="copyright">
+                &copy; Copyright <strong><span>ShahSawoodPortfolio</span></strong>
+            </div>
+            <div class="credits">
+                Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+            </div>
+        </div>
+    </footer><!-- End  Footer -->
+    <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+{% endblock main %}

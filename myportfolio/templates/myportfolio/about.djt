@@ -1,0 +1,36 @@
+{% load static %}
+<section id="about" class="about">
+	<div class="container">
+		<div class="section-title">
+			<h2>About</h2>
+			<p>I have been studying Computer Science at Harvard University Massachussets USA since 2020. I completed my first Professional Course named CS50x <b>(Introduction to Computer Science)</b>. Currently I am studying my second Professional Course named CS50w <b>(Web Programming with <code>Python</code> and <code>JavaScript</code>)</b>.</p>
+		</div>
+		<div class="row">
+			<div class="col-lg-4" data-aos="fade-right">
+				<img src="{% static 'myportfolio/img/old-hero1-bg.JPG' %}" class="img-fluid" alt="">
+			</div>
+			<div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
+				<h3>Web Developer.</h3>
+				<p class="fst-italic">I have been at Last Wave Technology as an interne for a year working on Django Applications.</p>
+				<div class="row">
+					<div class="col-lg-6">
+						<ul>
+							<li><i class="bi bi-chevron-right"></i> <strong>Date of Birth:</strong> <span>4 Feb 2003</span></li>
+							<li><i class="bi bi-chevron-right"></i> <strong>Website:</strong> <span>www.example.com</span></li>
+							<li><i class="bi bi-chevron-right"></i> <strong>Phone:</strong> <span>+92-346-0149720</span></li>
+							<li><i class="bi bi-chevron-right"></i> <strong>City:</strong> <span>Peshawar, Pakistan</span></li>
+						</ul>
+					</div>
+					<div class="col-lg-6">
+						<ul>
+							<li><i class="bi bi-chevron-right"></i> <strong>Age:</strong> <span>19</span></li>
+							<li><i class="bi bi-chevron-right"></i> <strong>Degree:</strong> <span>B.S</span></li>
+							<li><i class="bi bi-chevron-right"></i> <strong>Email:</strong> <span>saood@lastwavetechnology.com</span></li>
+						</ul>
+					</div>
+				</div>
+				<p>"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam."</p>
+			</div>
+		</div>
+	</div>
+</section>
