@@ -5,14 +5,7 @@ from .models import Message
 
 # Create your views here.
 def index(request):
-    langs = [
-        "C Programmer",
-        "C++ Programmer",
-        "Django Developer",
-        "Python Developer",
-        "SQL User",
-    ]
-    context = {"title": "Index", "langs": langs}
+    context = {"title": "Index"}
     return render(request, "myportfolio/index.djt", context)
 
 
