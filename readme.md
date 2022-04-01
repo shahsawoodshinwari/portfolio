@@ -1,4 +1,4 @@
-[Shah Sawood-PortFolio][]
+Shah Sawood-PortFolio
 ===================
 
 [![Facebook][fb-button]]
