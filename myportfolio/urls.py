@@ -20,4 +20,5 @@ app_name = "portfolio"
 urlpatterns = [
     path("", views.index, name="index"),
     path("portfolio/details", views.portfolio_detail, name="portfolio-details"),
+    path("message/", views.message, name="message"),
 ]
